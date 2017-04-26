@@ -1,30 +1,4 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Default Stylesheet
-*   url: styleshout.com
-*   03-17-2014
-=====================================================================
 
-TOC:
-a. Webfonts and Icon fonts
-b. Reset
-c. Default Styles
-   1. Basic
-   2. Typography
-   3. Links
-   4. Images
-   5. Buttons
-   6. Forms
-d. Grid
-e. Others
-   1. Clearing
-   2. Misc
-
-=====================================================================  */
-
-/* ------------------------------------------------------------------ */
-/* a. Webfonts and Icon fonts
- ------------------------------------------------------------------ */
 
 @import url("fonts.css");
 @import url("fontello/css/fontello.css");
@@ -37,6 +11,9 @@ e. Others
       HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
 /* ------------------------------------------------------------------ */
 
+.responsive-headline-text{
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
