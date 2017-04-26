@@ -11,6 +11,11 @@
       HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
 /* ------------------------------------------------------------------ */
 
+
+.photos{
+    width: 100%;
+    overflow: hidden;
+}
 .responsive-headline-text{
     text-shadow: black 0.1em 0.1em 0.2em;
 }
